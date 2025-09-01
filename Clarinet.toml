@@ -9,6 +9,16 @@ requirements = []
 path = 'contracts/Trialok.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.PatientDataIntegrity]
+path = 'contracts/PatientDataIntegrity.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.compliance-monitor]
+path = 'contracts/compliance-monitor.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
